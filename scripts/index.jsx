@@ -5,6 +5,7 @@
             name: "",
             role: ""
         }
+        this.imageUrl = base + "/image/logo.png";
     }
     componentDidMount() {
         var userName = document.getElementById("userName").value;
@@ -15,7 +16,7 @@
         return (
             <div className="top">
                 <div className="logo">
-                    <img src="http://ywang363pri1:8987/image/logo.png" />
+                    <img src={this.imageUrl} />
                 </div>
                 <div className="user">
                     <span className="user_tip">User:</span>
