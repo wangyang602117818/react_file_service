@@ -1,6 +1,6 @@
 **纯前端版的react项目**
   
-项目总共1.3M，代码是我从fileserver中分离出来的，是学习react的好资源  
+项目总共1.3M，代码是我从 FileService.Api 中分离出来的，是学习react的好资源  
 项目使用 babel.min.js 在 前端编译 的，性能 比 服务端编译 要差一点  
  
 > 可以自己对比一下加载速度 http://ywang363pri1:8986/  
